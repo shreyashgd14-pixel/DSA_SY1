@@ -2,7 +2,7 @@ class Queue :
     def __init__(self):
         self.F=-1
         self.R=-1
-        self.QT=[0]*5 #Queue size is fixed to 5 , not more than 5 elements are possible
+        self.QT=[0]*5 
     
 
     def insert(self,x):
