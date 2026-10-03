@@ -46,12 +46,11 @@ print("Deleted:", x)
 s.display()
 
 
-#This is the code given by sir , check it and make it correct
 class Queue :
     def __init__(self):
         self.top=-1
         self.ST=-1
-        self.QT=[0]*5 #Queue size is fixed to 5 , not more than 5 elements are possible
+        self.QT=[0]*5 
     
 
     def insert(self,x):
